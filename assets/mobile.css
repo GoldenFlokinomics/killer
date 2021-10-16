@@ -1,0 +1,376 @@
+@media only screen and (max-width : 720px) {
+
+    .topbar{
+        position: fixed;
+        z-index: 99999999999999999;
+        width: 100vw;
+        height: 50px;
+        top:0;
+        left: 0;
+        background-color: transparent;
+    }
+
+    .topbar img{
+        position: absolute;
+        height: 40px;
+        left: 50px;
+        top: 5px;
+    }
+    
+    .topbar h1{
+        position: absolute;
+        height: 40px;
+        left: 100px;
+        top: -10px;
+        font-size: 25px;
+    }
+
+    .topbar button{
+        display: none;
+
+    }
+
+    .cntn{
+        position: relative;
+        top: -10px;
+        left: -8px;
+        width: 100vw;
+        height: 110vh;
+    }
+
+    #bg{
+        display: none;
+    }
+
+    #bg2{
+        display: none;
+    }
+    .cntn img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+   
+    .r-cntn {
+        z-index: 99999;
+        position: absolute;
+        top: 60px;
+        width: 90%;
+        left: 4%;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .r-cntn img{
+        position: relative;
+        width: 90%;
+        height: 300px;
+    }
+
+    .l-cntn {
+        z-index: 99999;
+        position: relative;
+        top: 350px;
+        width: 90%;
+        height: 220px;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .l-cntn a{
+        padding: 5px 15px 10px 15px;
+        text-decoration: none;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+        position: relative;
+        top: 20px;
+    }
+
+    .l-cntn a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .recent{
+        position: relative;
+        width: 100vw;
+        left: -8px;
+        padding-bottom: 50px;
+    }
+
+    .rbox{
+        position: relative;
+        width: 90%;
+        left: 2%;
+        margin-bottom: 20px;
+        background-color: white;
+        padding: 10px;
+        height: 70px;
+        color: black
+    }
+
+    .scr{
+        position: relative;
+        top: -5px;
+    }
+
+
+    #limg{
+        position: absolute;
+        left: 10px;
+        height: 60px;
+        top: 15px;
+    }
+    #rimg{
+        position: absolute;
+        right: 10px;
+        height: 60px;
+        top: 15px;
+    }
+
+    .cntn2{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        left: -20px;
+        top: -30px;
+        padding-bottom: 30px;
+        text-align: left;
+        padding-left: 30px;
+        color: white;
+    }
+
+    .cntn2 img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    #cr{
+        position: absolute;
+        top: 470px;
+        height: 250px;
+        left: 10px;
+    }
+
+    .l-c2 {
+        z-index: 99999;
+        position: absolute;
+        left: 5%;
+        top: 70px;
+        height: 300px;
+        width: 90%;
+        text-align: left;
+        padding-bottom: 70px;
+        background-color: rgba(0, 0, 0, 0.301);
+    }
+
+    .cntn3{
+        position: relative;
+        width: 100vw;
+        height: 120vh;
+        left: -10px;
+        top: -50px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: black;
+        padding-top: 20px;
+    }
+
+    #bg3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .button1 {
+        padding: 15px 25px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #04AA6D;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+      }
+      
+      .button1:hover {background-color: #3e8e41}
+      
+      .button1:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+
+    .cbox{
+        position: relative;
+        display: inline-block;
+        width: 90%;
+        left: 0%;
+        z-index: 99999;
+        text-align: center;
+        height: 300px;
+    }
+
+    .cbox img{
+        height: 300px;
+    }
+
+    .cbox1{
+        position: relative;
+        display: inline-table;
+        width: 28%;
+        z-index: 99999;
+        text-align: center;
+        margin-right: 20px;
+        top: 0px
+    }
+
+    .filterDiv {
+        background-color: transparent;
+        position: absolute;
+        left: 4%;
+        color: black;
+        width: 80%;
+        text-align: center;
+        display: none;
+        padding: 20px;
+        border: 2px solid #f4511e;
+      }
+      
+      .show {
+        display: block;
+      }
+      
+      .container {
+        margin-top: 20px;
+        overflow: hidden;
+      }
+      
+      /* Style the buttons */
+      .btn {
+        border: none;
+        outline: none;
+        padding: 12px 16px;
+        background-color: #f1f1f1;
+        cursor: pointer;
+      }
+      
+      .btn:hover {
+        background-color: #ddd;
+      }
+      
+      .btn.active {
+        background-color: #666;
+        color: white;
+      }
+
+    .cntn4{
+        position: relative;
+        width: 100vw;
+        height: 170vh;
+        left: -8px;
+        top: -75px;
+        padding-bottom: 30px;
+        text-align: left;
+        padding-top: 30px;
+        color: black;
+    }
+
+    #c4img{
+        display: none;
+    }
+
+    .lc4 h1{
+        position: relative;
+        left: 9%;
+    }
+
+    .htb-box{
+        position: relative;
+        width: 80%;
+        left: 9%;
+        text-align: left;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+
+    .htb-box img{
+        width: 60px;
+    }
+
+    .htb-box-txt{
+        position: relative;
+        left: 80px;
+        width: 80%;
+        top: -100px
+    }
+
+    .cntn5{
+        position: relative;
+        width: 100vw;
+        height: 30vh;
+        left: -9px;
+        top: -50px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: black;
+        padding-top: 20px;
+    }
+
+    .cntn5 img{
+        position: relative;
+        display: inline-block;
+        height: 40px;
+        z-index: 99999;
+        margin-bottom: 20px;
+    }
+
+    .footer{
+        position: relative;
+        top: -70px;
+        width: 100vw;
+        height: 400px;
+        left: -8px;
+        padding-bottom: 30px;
+        text-align: left;
+        color: white;
+        background-color: black;
+    }
+
+    .ftb{
+        width: 80%;
+        height: 70%;
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 10%;
+        border: 1px solid white;
+        text-align: center;
+    }
+
+    #ftb{
+        display: none;
+    }
+
+    .ftb img{
+        width: 100%;
+    }
+
+    .ftb a{
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        position: relative;
+        
+    }
+}
