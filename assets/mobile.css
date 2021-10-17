@@ -2,8 +2,12 @@
 @media only screen and (max-width : 720px) {
 
     body {
+        background-color: #1b1b1b;
+        color:white;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
         overflow-x: hidden;
-        width: 100vw;
+        scroll-behavior: smooth;
     }
     
 
