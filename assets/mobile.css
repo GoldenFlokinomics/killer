@@ -1,10 +1,9 @@
 
 @media only screen and (max-width : 720px) {
 
-    body{
-        position: relative;
+    body {
         overflow-x: hidden;
-    }
+      }
     
 
     .topbar{
@@ -141,9 +140,9 @@
 
     .cntn2{
         position: relative;
-        width: 100vw;
+        width: 93vw;
         height: 100vh;
-        left: -8px;
+        left: -11px;
         top: -30px;
         padding-bottom: 30px;
         text-align: left;
@@ -155,7 +154,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 93%;
+        width: 100%;
         height: 100%;
     }
 
@@ -169,7 +168,7 @@
     .l-c2 {
         z-index: 99999;
         position: absolute;
-        left: 4%;
+        left: 7%;
         top: 70px;
         height: 300px;
         width: 80%;
