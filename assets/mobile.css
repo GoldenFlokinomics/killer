@@ -1,4 +1,11 @@
+
 @media only screen and (max-width : 720px) {
+
+    body{
+        position: relative;
+        overflow-x: hidden;
+    }
+    
 
     .topbar{
         position: fixed;
@@ -144,11 +151,11 @@
         color: white;
     }
 
-    .cntn2 img{
+   #bg2m{
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 93%;
         height: 100%;
     }
 
@@ -193,13 +200,7 @@
         height: 100%;
     }
 
-    #bg2m{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
+    
 
     .button1 {
         padding: 15px 25px;
